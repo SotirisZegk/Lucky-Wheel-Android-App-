@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThirdActivity">
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="160dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="22dp"
+        android:text="Αγορασε ενα κουπονι για τσαμπα popcorn"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@+id/button8"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView4"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="94dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="47dp"
+        android:text="350"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textView11"
+        app:layout_constraintTop_toBottomOf="@+id/button8" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="94dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="22dp"
+        android:text="400"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textView14"
+        app:layout_constraintTop_toBottomOf="@+id/button9" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="94dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="44dp"
+        android:text="800"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textView12"
+        app:layout_constraintTop_toBottomOf="@+id/button3" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="73dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="74dp"
+        app:layout_constraintEnd_toStartOf="@+id/textView10"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView16"
+        app:srcCompat="@drawable/burger_copy" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="73dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="41dp"
+        app:layout_constraintEnd_toStartOf="@+id/textView12"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:srcCompat="@drawable/pizza_copy" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="73dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="25dp"
+        app:layout_constraintEnd_toStartOf="@+id/textView14"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:srcCompat="@drawable/popcorn_copy" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="73dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginBottom="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView11"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:srcCompat="@drawable/sanduits_copy" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="94dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="142dp"
+        android:text="1000"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textView10"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="160dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="74dp"
+        android:text="Αγορασε ενα κουπονι για τσαμπα burger"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@+id/button3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/coins" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="160dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="47dp"
+        android:text="Αγορασε ενα κουπονι για τσαμπα HotDog"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button7"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView5"
+        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="160dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="44dp"
+        android:text="Αγορασε ενα κουπονι για τσαμπα pizza"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@+id/button9"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <TextView
+        android:id="@+id/coins"
+        android:layout_width="94dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="152dp"
+        android:layout_marginRight="152dp"
+        android:textSize="26sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="94dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="16dp"
+        android:text="COINS:"
+        android:textSize="26sp"
+        app:layout_constraintEnd_toStartOf="@+id/coins"
+        app:layout_constraintHorizontal_bias="0.181"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

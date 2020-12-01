@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.katsa.myapplication">
+
+    <uses-feature
+        android:name="android.hardware.sensor.accelerometer"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".SecondActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".ThirdActivity"
+            android:label="ThirdActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".HardLevelActivity"
+            android:label="HardLevelActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".MoreMoneyActivity"
+            android:label="MoreMoneyActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+
+        <activity android:name=".BoughtBurger" android:theme="@style/Theme.AppCompat.NoActionBar" android:label="ThirdActivity"/>
+
+        <activity android:name=".BoughtPizza" android:theme="@style/Theme.AppCompat.NoActionBar" android:label="ThirdActivity"/>
+
+        <activity android:name=".BoughtPopcorn" android:theme="@style/Theme.AppCompat.NoActionBar" android:label="ThirdActivity"/>
+
+        <activity android:name=".BoughtHotdog" android:theme="@style/Theme.AppCompat.NoActionBar" android:label="ThirdActivity"/>
+
+        <activity android:name=".PopActivity" android:theme="@style/AppTheme.CustomTheme" android:label="ΑΠΟΤΕΛΕΣΜΑ ΤΡΟΧΟΥ"/>
+
+        <activity android:name=".Pop2Activity" android:theme="@style/AppTheme.CustomTheme" android:label="ΑΠΟΤΕΛΕΣΜΑ ΤΡΟΧΟΥ"/>
+
+        <activity android:name=".Pop3Activity" android:theme="@style/AppTheme.CustomTheme" android:label="ΑΠΟΤΕΛΕΣΜΑ ΤΡΟΧΟΥ"/>
+
+        <activity android:name=".Pop4Activity" android:theme="@style/AppTheme.CustomTheme" android:label="ΑΠΟΤΕΛΕΣΜΑ ΤΡΟΧΟΥ"/>
+
+        <activity android:name=".Pop5Activity" android:theme="@style/AppTheme.CustomTheme" android:label="ΑΠΟΤΕΛΕΣΜΑ ΤΡΟΧΟΥ"/>
+
+        <activity android:name=".Pop6Activity" android:theme="@style/AppTheme.CustomTheme" android:label="ΑΠΟΤΕΛΕΣΜΑ ΤΡΟΧΟΥ"/>
+
+        <activity android:name=".HardPop2Activity" android:theme="@style/AppTheme.CustomTheme" android:label="ΑΠΟΤΕΛΕΣΜΑ ΤΡΟΧΟΥ"/>
+
+        <activity android:name=".HardPopActivity" android:theme="@style/AppTheme.CustomTheme" android:label="ΑΠΟΤΕΛΕΣΜΑ ΤΡΟΧΟΥ"/>
+    </application>
+
+</manifest>

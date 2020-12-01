@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BoughtHotdog">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="276dp"
+        android:layout_height="114dp"
+        android:text="Συγχαρητήρια, με το παραπάνω κουπόνι μπορείς να πάρεις ένα δωρεάν Hotdog απο οποιοδήποτε κατάστημα HotHot!!!"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/Coupon4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView12" />
+
+    <TextView
+        android:id="@+id/Coupon4"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="2dp"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="152dp"
+        android:layout_height="170dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sanduits_copy" />
+</android.support.constraint.ConstraintLayout>

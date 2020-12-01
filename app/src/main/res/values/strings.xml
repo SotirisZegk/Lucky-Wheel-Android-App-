@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Lucky Wheel</string>
+    <string name="button">Play</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="textView2">Γυρίζεις - Κερδίζεις - Εξαργυρώνεις!</string>
+    <string name="textView3">Τι Κερδίζεις;</string>
+    <string name="imageView">TODO</string>
+    <string name="spinning_wheel">ΓΥΡΙΣΕ ΤΟΝ ΤΡΟΧΟ</string>
+    <string name="spin_to_win">SPIN TO WIN!</string>
+    <string name="tries1">TextView</string>
+    <string name="trieskeimenomprosta">Τα Coins που έχεις:</string>
+    <string name="burger_simple_burgers">Συγχαρητήρια, με το παραπάνω κουπόνι μπορείς να πάρεις ένα δωρεάν burger απο οποιοδήποτε κατάστημα Simple Burgers!!!</string>
+    <string name="barcode_burger">8FH98TH34KL09</string>
+</resources>
